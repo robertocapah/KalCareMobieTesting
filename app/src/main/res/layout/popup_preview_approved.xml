@@ -618,11 +618,9 @@
                 android:id="@+id/etPaymentMethodPrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:background="@drawable/bg_edtext"
-                android:ems="10"
-                android:editable="false"
-                android:focusable="false"
-                android:clickable="false" />
+                android:ems="10" />
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
@@ -634,10 +632,8 @@
                 android:id="@+id/etSourceMediaPaymentPrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_edtext"
-                android:editable="false"
-                android:focusable="false"
-                android:clickable="false" />
+                android:textColor="@color/black"
+                android:background="@drawable/bg_edtext" />
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
@@ -649,10 +645,8 @@
                 android:id="@+id/etPaymentPrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_edtext"
-                android:editable="false"
-                android:focusable="false"
-                android:clickable="false"/>
+                android:textColor="@color/black"
+                android:background="@drawable/bg_edtext"/>
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
@@ -664,10 +658,8 @@
                 android:id="@+id/etCardNumberPrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_edtext"
-                android:editable="false"
-                android:focusable="false"
-                android:clickable="false"/>
+                android:textColor="@color/black"
+                android:background="@drawable/bg_edtext"/>
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
@@ -679,10 +671,8 @@
                 android:id="@+id/etBcaTraceNumberPrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_edtext"
-                android:editable="false"
-                android:focusable="false"
-                android:clickable="false"/>
+                android:textColor="@color/black"
+                android:background="@drawable/bg_edtext"/>
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
@@ -695,10 +685,8 @@
                 android:id="@+id/etNetPricePrev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:background="@drawable/bg_edtext"
-                android:editable="false"
-                android:focusable="false"
-                android:clickable="false"
                 android:visibility="gone"/>
         </LinearLayout>
         <LinearLayout

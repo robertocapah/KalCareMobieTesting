@@ -46,6 +46,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
+                        android:id="@+id/tv1"
                         android:layout_marginLeft="10dp"
                         android:layout_weight="1"
                         android:text="Item code "
@@ -70,6 +71,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
+                        android:id="@+id/tv2"
                         android:layout_weight="1"
                         android:text="Item Name "
                         android:textColor="@android:color/black" />
@@ -98,6 +100,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
+                        android:id="@+id/tv3"
                         android:layout_marginLeft="10dp"
                         android:layout_weight="1"
                         android:text="Item Qty "
@@ -123,6 +126,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
                         android:layout_weight="1"
+                        android:id="@+id/tv4"
                         android:text="Qty Available "
                         android:textColor="@android:color/black" />
                     <TextView
@@ -151,6 +155,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
+                        android:id="@+id/tv8"
                         android:layout_weight="1"
                         android:text="Partner "
                         android:textColor="@android:color/black" />
@@ -175,6 +180,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
                         android:layout_weight="1"
+                        android:id="@+id/tv5"
                         android:text="Partner Address "
                         android:textColor="@android:color/black" />
                     <TextView
@@ -204,6 +210,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
                         android:layout_weight="1"
+                        android:id="@+id/tv6"
                         android:text="Partner Phone "
                         android:textColor="@android:color/black" />
                     <TextView
@@ -226,6 +233,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
+                        android:id="@+id/tv7"
                         android:layout_weight="1"
                         android:text="Status "
                         android:textColor="@android:color/black" />

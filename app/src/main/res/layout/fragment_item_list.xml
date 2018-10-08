@@ -9,5 +9,5 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="com.kalbenutritionals.kalcaremobie.Fragment.FragmentSalesOrder"
+    tools:context="com.kalbenutritionals.kalcaremobieTesting.Fragment.FragmentSalesOrder"
     tools:listitem="@layout/fragment_item" />

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher"
+        android:visibility="gone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_10sdp"
+        android:id="@+id/tvHeaderProductName"
+        android:background="@color/primary_color_theme"
+        android:text="Product Name"
+        android:textColor="@color/white"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cdv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="3"
+                        android:text="Item Name "
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/tvItemName"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Item code asdasddasdas"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Item Qty "
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tvQty"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Net Price "
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tvNetPrice"
+                        android:layout_weight="1"
+                        android:text="Net Price"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Base Point "
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/tvBasePoint"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Base point"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Bonus Point "
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/tvBonusPoint"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Bonus Point"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

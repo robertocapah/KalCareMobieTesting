@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kalbenutritionals.kalcaremobie">
+    package="com.kalbenutritionals.kalcaremobieTesting">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -49,6 +49,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_kalcare"
         android:supportsRtl="true"
+        android:largeHeap="true"
         android:name="android.support.multidex.MultiDexApplication"
         android:debuggable="true"
         tools:replace="android:icon"
@@ -65,12 +66,19 @@
         <activity android:name=".LoginActivity"
             android:configChanges="orientation|screenSize"/>
         <activity android:name=".MainMenu"
-            android:configChanges="orientation|screenSize"/>
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"/>
         <service android:name=".services.MyNotification">
             <intent-filter>
                 <action android:name="service.MyNotification"/>
             </intent-filter>
         </service>
+        <receiver android:name=".SystemDialogReceiver">
+            <intent-filter>
+                <action android:name="android.intent.
+                 action.CLOSE_SYSTEM_DIALOGS" />
+            </intent-filter>
+        </receiver>
 
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->

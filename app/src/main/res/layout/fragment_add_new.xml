@@ -44,10 +44,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nama Depan"
-                    android:digits=".ABCDEFGHIJKLMNOPQRSTUVWXYZ'abcdefghijklmnopqrstuvwxyz "
+                    android:digits=".ABCDEFGHIJKLMNOPQRSTUVWXYZ' "
                     android:maxLength="100"
                     android:maxLines="1"
-                    android:inputType="textPersonName" />
+                    android:inputType="textCapCharacters" />
 
             </android.support.design.widget.TextInputLayout>
             <!--  Name Label -->
@@ -63,10 +63,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nama Belakang"
-                    android:digits=".ABCDEFGHIJKLMNOPQRSTUVWXYZ'abcdefghijklmnopqrstuvwxyz "
+                    android:digits=".ABCDEFGHIJKLMNOPQRSTUVWXYZ' "
                     android:maxLength="100"
                     android:maxLines="1"
-                    android:inputType="textPersonName" />
+                    android:inputType="textCapCharacters" />
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -218,7 +218,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="top|left"
                     android:hint="Alamat"
-                    android:inputType="textMultiLine"
+                    android:singleLine="false"
+                    android:digits=",.ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789' "
+                    android:inputType="textMultiLine|textCapCharacters"
                     android:lines="3"
                     android:maxLines="8" />
             </android.support.design.widget.TextInputLayout>

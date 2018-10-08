@@ -20,7 +20,7 @@ android:fillViewport="true">
             android:id="@+id/ivBannerLogin"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/banner_kalcare_login" />
+            android:src="@drawable/banner_kalcare_login_3" />
     </LinearLayout>
 
 
