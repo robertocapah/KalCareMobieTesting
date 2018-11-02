@@ -710,7 +710,7 @@ public class MainMenu extends BaseActivity implements GoogleApiClient.Connection
         cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, uriImage);
         startActivityForResult(cameraIntent, CAMERA_REQUEST_PROFILE);
     }
-
+ 
     private void galleryIntentProfile() {
         Intent pickPhoto = new Intent(Intent.ACTION_PICK,
                 MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
